@@ -23,6 +23,7 @@ export class AppComponent {
       icon: 'list'
     },
     {
+<<<<<<< HEAD
       title: 'login',
       url: '/login',
       icon: 'login'
@@ -31,7 +32,19 @@ export class AppComponent {
       title: 'register',
       url: '/register',
       icon: 'register'
+=======
+      title: 'setting',
+      url: '/setting',
+      icon: 'setting'
+    },
+    {
+      title: 'my-profile',
+      url: '/my-profile',
+      icon: 'my-profile'
+>>>>>>> a17304ad50a698745ae2dd87c93941a53dfc1803
     }
+
+
   ];
 
   constructor(
